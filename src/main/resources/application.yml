@@ -7,7 +7,10 @@ spring:
     driver-class-name: oracle.jdbc.OracleDriver
     username: username
     password: password
-    url: jdbc:oracle:thin:@HOST:PORT/SID or SERVICE
+    url: jdbc:oracle:thin:@HOST:PORT/SID OR SERVICE
+
+mybatis:
+  mapper-locations: classpath:mappers/**/*.xml
 
 logging:
   level:
