@@ -1,0 +1,14 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    username: username
+    password: password
+    url: jdbc:oracle:thin:@HOST:PORT/SID or SERVICE
+
+logging:
+  level:
+    com.example.sbjsp: debug
